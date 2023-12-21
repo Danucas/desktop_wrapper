@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+src/desktop_wrapper/__init__.py
+src/desktop_wrapper/custom_api.py
+src/desktop_wrapper/desktop_wrapper.py
+src/desktop_wrapper/formats.py
+src/desktop_wrapper/project.py
+src/desktop_wrapper.egg-info/PKG-INFO
+src/desktop_wrapper.egg-info/SOURCES.txt
+src/desktop_wrapper.egg-info/dependency_links.txt
+src/desktop_wrapper.egg-info/entry_points.txt
+src/desktop_wrapper.egg-info/requires.txt
+src/desktop_wrapper.egg-info/top_level.txt

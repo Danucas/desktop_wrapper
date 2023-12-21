@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "desktop_wrapper"
+version = "0.0.12"
+authors = [
+  { name="Daniel Rodriguez", email="danrodcastillo1994@gmail.com" },
+]
+keywords = ["interface", "gui", "react", "Desktop", "Python"]
+description = "A Python package to Build Python Desktop applications using React as GUI."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "Flask==3.0.0",
+    "Flask-Cors==4.0.0",
+    "pywebview==4.4.1",
+    "requests==2.31.0"
+]
+
+[project.scripts]
+dw-create-app = "desktop_wrapper:create_new_app"

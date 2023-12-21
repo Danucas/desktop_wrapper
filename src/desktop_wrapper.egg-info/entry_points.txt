@@ -1,0 +1,2 @@
+[console_scripts]
+dw-create-app = desktop_wrapper:create_new_app
